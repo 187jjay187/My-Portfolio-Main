@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.welcome-logo {
+    width: 90px;
+    height: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .menu {
+    position: absolute;
+    width: 18px;
+    height: 12px;
+    left: 3px;
+    top: 6px;
+  }
+  
+  .hero-title-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./Images/header-illsultration-mobile-1.svg);
+    background-size: cover;
+  }
+  
+  .hero-title {
+    top: 156px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+  }
+  
+  .hero-description {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 52px;
+  }
+  
+.hero-title span {
+    color: #36b37e;
+  }
+  
+  .hero-description {
+    width: 100%;
+    height: 164px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #172B4D;
+  }
+  
+  .social-media-links {
+    padding-right: 40px;
+    padding-top: 40px;
+  }
+  
+  #social-media-links-list {
+    list-style-type: none;
+  }
+  
+  #social-media-icons li {
+    display: inline;
+    padding: 6px;
+  }
+  
+.Action-btn {
+    position: absolute;
+    padding-top: 30px;
+}
