@@ -25,14 +25,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(./Images/header-illsutration-mobile.svg);
+  background-image: url(./Images/header-illsutration-mobile\ 1.svg);
   background-size: cover;
 }
 
 .hero-title {
   top: 156px;
   font-family: 'Inter', sans-serif;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
