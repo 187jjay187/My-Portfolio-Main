@@ -2,6 +2,10 @@
 
 # Portfolio-Setup-And-Mobile-First
 
+## Recent Fixes
+
+- Fixed style linters errors
+
 ## Built With
 
 - HTML
@@ -9,6 +13,7 @@
 
 
 ## List Of Technologies
+
 - Visual Studio Code
 - Github
 
