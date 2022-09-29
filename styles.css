@@ -32,6 +32,8 @@ body {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   width: 100%;
 }
 
@@ -137,6 +139,13 @@ body {
   padding-right: 20px;
 }
 
+.display-grid {
+ padding-left: 160px;
+ padding-right: 165px;
+ padding-top: 24px;
+ padding-bottom: 58px;
+}
+
 #recent_work {
   display: flex;
   flex-direction: column;
@@ -159,6 +168,42 @@ body {
   border-radius: 24px;
   width: 48px;
   height: 4px;
+}
+
+.careers-card-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.careers-card-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.careers-card-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.careers-card-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.careers-card-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.careers-card-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .careers_list {
@@ -292,6 +337,24 @@ body {
   height: 48px;
   font-weight: 500;
   letter-spacing: 0.03em;
+}
+
+.education-card-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.education-card-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.education-card-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .education-card {
