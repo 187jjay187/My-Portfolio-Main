@@ -1,4 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.btn-primary {
+  background: #36b37f;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  outline-color: none;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.btn-primary:active {
+  background: #008552;
+}
+
+.primary-font-style {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+}
+
+.primary-font-size {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
 .container {
+  display: flex;
+  flex-direction: column;
   width: 100%;
 }
 
@@ -25,7 +63,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(./Images/header-illsutration-mobile.svg);
+  background-image: url(./Images/header-illsutration-mobile\ 1.svg);
   background-size: cover;
 }
 
@@ -54,7 +92,31 @@
   color: #172b4d;
 }
 
-#media-links{
+.careers-card .careers-card-footer .tags li {
+  flex: none;
+  text-align: center;
+  flex-grow: 0;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 12px;
+  background: #ebf0ee;
+  color: #3a4a42;
+  border-radius: 8px;
+}
+
+.education-card .education-card-footer .tags li {
+  flex: none;
+  text-align: center;
+  flex-grow: 0;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 12px;
+  background: white;
+  color: #36b37e;
+  border-radius: 8px;
+}
+
+#media-links {
   list-style-type: none;
   padding-left: 100px;
 }
@@ -76,6 +138,278 @@
 }
 
 #Action {
+  padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.Indicator {
+  padding-left: 160px;
+  padding-right: 165px;
+  padding-top: 48px;
+  padding-bottom: 58px;
+}
+
+#recent_work {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 52px;
+  min-width: 327px;
+  height: 97px;
+  text-align: center;
+  color: #172b4d;
+}
+
+#recent_works h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+#recent_works .indicator {
+  margin-top: 24px;
+  margin-bottom: 62px;
+  background-color: #36b37e;
+  border-radius: 24px;
+  width: 48px;
+  height: 4px;
+}
+
+.careers-card-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.careers-card-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.careers-card-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.careers-card-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.careers-card-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.careers-card-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.careers_list {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  padding: 4px 2px;
+  gap: 24px;
+  height: 2972px;
+}
+
+.careers-card {
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+  width: 327px;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  text-align: center;
+  justify-content: center;
+}
+
+.careers-card img {
+  width: 100%;
+  height: 252px;
+  order: 0;
+}
+
+.careers-card-footer {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.careers-card .careers-card-footer .tags {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 8px;
+  width: 266px;
+}
+
+.careers_title {
+  width: 295px;
+  height: 57px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3a4a42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.action {
+  width: 305px;
+  height: 69px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.action button {
+  width: 122px;
+  height: 48px;
+  bottom: 8px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+#about_me {
+  background-image: url('./images/illustration-about-me.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin-top: 455px;
+  width: 100%;
+  height: 389.38px;
+  justify-content: center;
+  text-align: center;
+}
+
+.supporting_text {
+  height: 189px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.contact_form_text {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.btn-resume {
+  padding: 12px;
+  gap: 10px;
+  width: 159px;
+  height: 48px;
+  background: #36b37f;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.btn-connect {
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 123px;
+  width: 129px;
+  height: 48px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+.education-card-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.education-card-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.education-card-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.education-card {
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+  width: 327px;
+  height: 352px;
+  background-color: #ebf0ee;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  margin-top: 24px;
+}
+
+.education-card img {
+  order: 0;
+  margin-top: 40px;
+  margin-left: 124px;
+  margin-right: 123px;
+  width: 80px;
+  height: 80px;
+}
+
+.education-card .education-card-footer {
+  order: 1;
+}
+
+.education-card .education-title {
+  height: 32px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #344563;
+}
+
+.education-card .education-card-footer .tags {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 8px;
+  width: 266px;
 }
