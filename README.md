@@ -27,6 +27,9 @@
 - Twitter: [@twitterhandle](https://twitter.com/187jjay187)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/jerome-osman-137605a4)
 
+## Collaborator
+
+MILINDI7 (https://github.com/MILINDI7)
 
 ## 🤝 Contributing
 
