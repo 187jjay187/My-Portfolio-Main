@@ -93,7 +93,7 @@ body {
 }
 
 .careers-card .careers-card-footer .tags li {
-  flex: none;
+  float: left;
   text-align: center;
   flex-grow: 0;
   font-weight: 600;
@@ -412,4 +412,63 @@ body {
   list-style-type: none;
   gap: 8px;
   width: 266px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 40px;
+}
+
+#Contact-form-description {
+  width: 327px;
+  height: 320px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  padding-left: 40px;
+  margin-bottom: 100px;
+}
+
+input {
+  margin-bottom: 40px;
+}
+
+#fullname, #email {
+  width: 327px;
+  height: 48px;
+  border-radius: 4px;
+}
+
+#btn-get-in-touch {
+  margin-top: 20px;
+  margin-left: 110px;
+}
+
+.send-button {
+  background-color: #36b37e;
+  border: none;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Inter';
+  font-size: 17px;
+  border-radius: 4px;
+  margin-top: 15px;
+  margin-left: 180px;
+}
+
+social-media-links-2 {
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+#media-links-2 li {
+  display: inline;
+  padding-left: 10px;
 }
