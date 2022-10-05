@@ -7,6 +7,7 @@ body {
   background-color: white;
 }
 
+.send-button,
 .btn-primary {
   background: #36b37f;
   border-radius: 4px;
@@ -15,14 +16,17 @@ body {
   outline-color: none;
 }
 
+.send-button:hover,
 .btn-primary:hover {
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
+.send-button:active,
 .btn-primary:active {
   background: #008552;
 }
 
+.send-button,
 .primary-font-style {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -419,18 +423,21 @@ body {
   flex-direction: column;
   align-items: center;
   margin-left: 40px;
+  background-image: url(./Images/Frame\ 37.svg);
+  background-repeat: no-repeat;
 }
 
-#Contact-form-description {
+.Contact-form-description {
   width: 327px;
   height: 320px;
   text-align: center;
   font-family: 'Inter', sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-  padding-left: 40px;
+  padding-right: 30px;
   margin-bottom: 100px;
 }
 
@@ -452,8 +459,11 @@ input {
 }
 
 #btn-get-in-touch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 20px;
-  margin-left: 110px;
+  margin-left: 40px;
 }
 
 .send-button {
@@ -470,12 +480,15 @@ input {
   margin-left: 180px;
 }
 
-social-media-links-2 {
-  margin-left: 80px;
-  margin-top: 10px;
+#social-media-links-2 {
+  list-style-type: none;
+  padding-right: 50px;
 }
 
 #media-links-2 li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   display: inline;
   padding-left: 10px;
 }
