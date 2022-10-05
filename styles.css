@@ -16,14 +16,18 @@ body {
   outline-color: none;
 }
 
-.send-button:hover,
-.btn-primary:hover {
-  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
-}
-
-.send-button:active,
-.btn-primary:active {
-  background: #008552;
+.send-button {
+  background-color: #36b37e;
+  border: none;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  border-radius: 4px;
+  margin-top: 15px;
+  margin-left: 180px;
 }
 
 .send-button,
@@ -445,7 +449,8 @@ input {
   margin-bottom: 40px;
 }
 
-#fullname, #email {
+#fullname,
+#email {
   width: 327px;
   height: 48px;
   border-radius: 4px;
@@ -466,29 +471,22 @@ input {
   margin-left: 40px;
 }
 
-.send-button {
-  background-color: #36b37e;
-  border: none;
-  color: white;
-  padding: 12px;
-  text-align: center;
-  text-decoration: none;
-  font-family: 'Inter';
-  font-size: 17px;
-  border-radius: 4px;
-  margin-top: 15px;
-  margin-left: 180px;
-}
-
 #social-media-links-2 {
   list-style-type: none;
   padding-right: 50px;
 }
 
 #media-links-2 li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   display: inline;
   padding-left: 10px;
+}
+
+.send-button:hover,
+.btn-primary:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.send-button:active,
+.btn-primary:active {
+  background: #008552;
 }
