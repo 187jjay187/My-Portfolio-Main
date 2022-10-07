@@ -1,0 +1,499 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+/* ----------------Moile Version-------------- */
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: none;
+}
+
+#logo-image {
+  padding-left: 15%;
+  padding-top: 15%;
+}
+
+.toolbar-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu {
+  align-self: center;
+  padding-left: 290px;
+}
+
+.hero-title-section {
+  position: relative;
+  text-align: center;
+}
+
+#headline-img-desktop {
+  display: none;
+}
+
+.hero-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-text {
+  font-size: 29px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+#second-title {
+  color: #36b37e;
+  font-size: 40px;
+}
+
+.hero-description {
+  width: 327px;
+  height: 164px;
+  font-weight: 400;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 15%;
+}
+
+.social-media-links {
+  padding-right: 40px;
+  padding-top: 40px;
+}
+
+#media-links {
+  list-style-type: none;
+}
+
+#media-links li {
+  display: inline;
+  padding: 6px;
+}
+
+#Action {
+  position: absolute;
+  padding-top: 30px;
+}
+
+.careers_list {
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 20px;
+}
+
+.careers-card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  width: 327px;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  align-items: center;
+
+  /* transition: width 1s, height 2s; */
+}
+
+.education-card {
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+  height: 352px;
+  background-color: #ebf0ee;
+  align-items: center;
+  margin-left: 85px;
+  border-radius: 8px;
+}
+
+#Recent-Works-Text {
+  text-align: center;
+  width: 327px;
+  height: auto;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  line-height: 52px;
+  padding-left: 60px;
+}
+
+.img-Placeholder {
+  background-color: #ebf0ee;
+  width: 327px;
+  height: 230px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+}
+
+.careers-card-footer {
+  width: 327px;
+  height: 222px;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+}
+
+#careers_title {
+  width: 295px;
+  height: 57px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  padding-left: 20px;
+  line-height: 32px;
+  text-align: center;
+}
+
+#career-tags {
+  margin: 0;
+  padding-left: 20px;
+}
+
+#career-tags li {
+  display: inline;
+  font-family: 'Inter', sans-serif;
+  padding: 6px;
+  background-color: #ebf0ee;
+  border-radius: 4px;
+}
+
+.project-button {
+  font-family: 'Inter', sans-serif;
+  background-color: #36b37e;
+  border: none;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 4px;
+  margin-left: 110px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.about-me-title {
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  height: 100px;
+}
+
+.about-me-detail {
+  width: 351px;
+  height: 189px;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  margin-left: 70px;
+}
+
+#about-me-text {
+  font-size: 40px;
+  padding-right: 90px;
+}
+
+.standard-button {
+  background-color: #36b37e;
+  border: none;
+  color: black;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 180px;
+}
+
+.education {
+  display: grid;
+  row-gap: 20px;
+}
+
+.education-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+#education-ul-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#education-ul-list li {
+  display: inline;
+  background-color: #fff;
+  color: #36b37e;
+  margin: 2px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.education-list-2 {
+  padding-top: 20px;
+  padding-right: 50px;
+}
+
+#education-ul-list-2 li {
+  display: inline;
+  background-color: #fff;
+  color: #36b37e;
+  margin: 2px;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.about_me_section {
+  display: grid;
+  row-gap: 20px;
+  grid-template-rows: auto;
+}
+
+.contact-form-section {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-form-desc {
+  width: 327px;
+  height: 320px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  padding-left: 18%;
+  margin-bottom: 100px;
+}
+
+.form {
+  margin-left: 17%;
+}
+
+input {
+  margin-bottom: 30px;
+}
+
+#fullname,
+#email {
+  width: 327px;
+  height: 48px;
+  border-radius: 4px;
+}
+
+#textarea {
+  width: 327px;
+  height: 114px;
+  border-radius: 4px;
+  border-color: #60c095;
+}
+
+#get-in-btn {
+  margin-top: 20px;
+  margin-left: 110px;
+}
+
+#social-media-links-2 {
+  margin-left: 24%;
+  margin-top: 10px;
+}
+
+#footer-email {
+  width: 375px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #42526e;
+  margin-left: 25px;
+}
+
+.green-button:hover,
+.project-button:hover {
+  background-color: #14e7dd;
+  color: black;
+}
+
+.green-button:active,
+.project-button:active {
+  background-color: #14e7dd;
+  color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* -------------Desktop Vesrion------------- */
+
+@media screen and (min-width: 768px) {
+  #headline-img-desktop {
+    display: block;
+    width: 100%;
+  }
+
+  .navbar {
+    display: block;
+    margin-left: 38%;
+  }
+
+  #navbar-Pages {
+    list-style-type: none;
+  }
+
+  #navbar-Pages li {
+    display: inline;
+    padding: 12px;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  #logo-image,
+  .menu,
+  #headline-img-mobile {
+    display: none;
+  }
+
+  .text {
+    padding-bottom: 10%;
+  }
+
+  #media-links {
+    margin-right: 8%;
+  }
+
+  #Action {
+    margin-left: 29%;
+  }
+
+  .hero-description {
+    width: 91%;
+    height: auto;
+  }
+
+  .careers_list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 30px;
+    justify-content: center;
+  }
+
+  #Recent-Works-Text {
+    width: 100%;
+    height: auto;
+    padding-left: 2%;
+  }
+
+  #about-me-text {
+    padding-right: 345px;
+  }
+
+  .about-me {
+    width: 100%;
+    display: grid;
+    row-gap: 30px;
+    justify-content: center;
+  }
+
+  #get-my-resume-section {
+    margin-left: 27%;
+  }
+
+  .about-me-detail {
+    width: 900px;
+    height: 96px;
+  }
+
+  .about1 {
+    display: none;
+  }
+
+  .education {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+  }
+
+  .contact-form-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #contact-form-detail {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 5%;
+    padding-left: 7%;
+  }
+
+  .contact-form-description {
+    width: 100%;
+  }
+
+  #contact-form-desc {
+    width: 100%;
+    padding: 10%;
+    text-align: justify;
+  }
+
+  .form {
+    width: 50%;
+  }
+
+  #fullname,
+  #email {
+    width: 400px;
+    height: 48px;
+  }
+
+  #textarea {
+    width: 400px;
+    height: 114px;
+    border-radius: 4px;
+    border-color: #60c095;
+  }
+
+  #get-in-btn {
+    margin-left: 0;
+  }
+
+  #footer-email {
+    display: none;
+  }
+
+  #social-media-links-2 {
+    margin: 0;
+    width: 100%;
+    border-top: 2px solid #dfe1e6;
+  }
+
+  #social-media-links-2 ul {
+    margin-left: 45%;
+  }
+}
