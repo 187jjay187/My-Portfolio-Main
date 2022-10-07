@@ -373,8 +373,7 @@ input {
     text-decoration: none;
   }
 
-  #logo-image,
-  .menu,
+  #logo-image, .menu,
   #headline-img-mobile {
     display: none;
   }
