@@ -124,7 +124,7 @@ html { font-family: 'Inter', sans-serif; }
   font-weight: 700;
   font-family: 'Inter', sans-serif;
   line-height: 52px;
-  padding-left: 60px;
+  padding-left: 80px;
 }
 
 .img-Placeholder {
@@ -215,7 +215,7 @@ html { font-family: 'Inter', sans-serif; }
 .standard-button {
   background-color: #36b37e;
   border: none;
-  color: black;
+  color: rgb(255, 255, 255);
   padding: 12px;
   text-align: center;
   text-decoration: none;
@@ -333,13 +333,13 @@ input {
   margin-left: 25px;
 }
 
-.green-button:hover,
+.standard-button:hover,
 .project-button:hover {
   background-color: #14e7dd;
   color: black;
 }
 
-.green-button:active,
+.standard-button:active,
 .project-button:active {
   background-color: #14e7dd;
   color: black;
