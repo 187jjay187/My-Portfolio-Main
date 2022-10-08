@@ -300,11 +300,12 @@ input {
   margin-bottom: 30px;
 }
 
-#fullname,
+#fullname, #fullnames,
 #email {
   width: 327px;
   height: 48px;
   border-radius: 4px;
+  border-color: #D0D9D4;
 }
 
 #textarea {
@@ -335,14 +336,14 @@ input {
 
 .standard-button:hover,
 .project-button:hover {
-  background-color: #14e7dd;
-  color: black;
+  background-color: #36B37F;
+  color: #fff;
 }
 
 .standard-button:active,
 .project-button:active {
-  background-color: #14e7dd;
-  color: black;
+  background-color: #008552;
+  color: #fff;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
@@ -439,6 +440,13 @@ input {
     justify-content: center;
   }
 
+.contact-form-section {
+  background-image: url(./Images/Frame2.png);
+  background-image: url(./Images/illustration-2-contact-form-desktop.png);
+  background-image: url(./Images/Frame@2x.png);
+  background-repeat: no-repeat;
+}
+
   .contact-form-section {
     display: flex;
     flex-direction: column;
@@ -466,7 +474,21 @@ input {
     width: 50%;
   }
 
-  #fullname,
+  .Names {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 420px;
+  }
+
+  #fullname {
+    width: 50%;
+  }
+  
+  #fullnames {
+    width: 50%;
+  }
+  
   #email {
     width: 400px;
     height: 48px;
