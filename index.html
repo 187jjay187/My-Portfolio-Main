@@ -4,27 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Welcome to my mobile portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome to my portfolio website</title>
 </head>
 <body>
-<div class="container">
+
+    <!-- Tollbar and Header section starts from here -->
+
+    <div class="container">
     <header class="toolbar-container">
-        <a class="welcome_logo">
-            <img src="images/Welcome logo.svg">
+        <a href="index.html">
+            <img id="welcome-image" src="images/Welcome logo.svg" alt="Welcome logo" />
         </a>
         <nav class="menu">
-            <img src="images/Menu.svg" alt="icon_menu">
+            <img src="images/Menu.svg" alt="Menu_icon">
         </nav>
         </header>
         <section class="hero-title-section">
-        <h1 class="hero-title">
-    Hey there. I'm Jerome<br>
-    <span>I'm a software developer</span>
-        </h1>
-        <p class="hero-description">
-            I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                don't hestiate to contact me.</p>
+        <img id="headline-img-mobile" src="images/header-illsutration-mobile 1.svg" alt="Mobile header background image">
+        <div class="hero-title">
+        <div class="main-text">
+            <h1 id="first">Hey there. I’m Jerome</h1>
+            <h1 id="second-title">I’m a software developer</h1>
+        </div>
+        <div class="hero-description">
+            <p> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+                don’t hestiate to contact me.</p>
         </div>
         <div class="social-media-links">
             <ul id="media-links">
@@ -38,197 +43,234 @@
             <div id="Action">
                 <img src="images/Action.svg" alt="Action">
             </div>
+        </div>
         </section>
-        
-</body>
-</html>
-
-
-<!-- recent work section -->
-<section>
-    <div id="recent_work" class="center-content">
-    <h1 class="primary-font-style">
-        My Recent <br> Works</h1></div>
-
-    <div class="Indicator">
-        <img src="Images/Indicator.svg">
     </div>
-    
+
+
+    <!-- recent work section -->
+
+
+    <section class="my-recent-work">
+        <h2 id="Recent-Works-Text">My Recent Works</h2>
     <div class="careers_list">
-
-    <section class="careers-card-1">
-        <div class="careers-card">
-        <img src="Images/img-placeholder.png" alt="placeholder">
+    <div class="careers-card">
+        <div class="img-Placeholder"></div>
         <div class="careers-card-footer">
-            <h3 class="careers_title">Multi-Post Stories Gain+Glory</h3>
-            <ul class="tags">
+        <h2 id="careers_title">Multi-Post Stories Gain+Glory</h2>
+        <div class="languages-category">
+            <ul id="career-tags">
                 <li class="Lang-tag">Ruby on rails</li>
                 <li class="Lang-tag">Css</li>
                 <li class="Lang-tag">Javascript</li>
                 <li class="Lang-tag">Html</li>
             </ul> 
-            <div class="action">
-                <button class="btn-primary primary-font-style">See project</button>
-            </div>
+        </div>
+        <div id="action">
+            <button type="button" class="project-button">See Project</button>
         </div>
         </div>
-    </section>
-
-    <section class="careers-card-2">
-        <div class="careers-card">
-        <img src="Images/img-placeholder.png" alt="placeholder">
-        <div class="careers-card-footer">
-            <h3 class="careers_title">Multi-Post Stories Gain+Glory</h3>
-            <ul class="tags">
-                <li class="Lang-tag">Ruby on rails</li>
-                <li class="Lang-tag">Css</li>
-                <li class="Lang-tag">Javascript</li>
-                <li class="Lang-tag">Html</li>
-            </ul> 
-            <div class="action">
-                <button class="btn-primary primary-font-style">See project</button>
-            </div>
-        </div>
-        </div>
-    </section>    
-        
-    <section class="careers-card-3">
-       <div class="careers-card">
-        <img src="Images/img-placeholder.png" alt="placeholder">
-        <div class="careers-card-footer">
-            <h3 class="careers_title">Multi-Post Stories Gain+Glory</h3>
-            <ul class="tags">
-                <li class="Lang-tag">Ruby on rails</li>
-                <li class="Lang-tag">Css</li>
-                <li class="Lang-tag">Javascript</li>
-                <li class="Lang-tag">Html</li>
-            </ul> 
-            <div class="action">
-                <button class="btn-primary primary-font-style">See project</button>
-            </div>
-        </div>
-        </div>
-    </section>
-
-    <section class="careers-card-4"> 
-       <div class="careers-card">
-        <img src="Images/img-placeholder.png" alt="placeholder">
-        <div class="careers-card-footer">
-            <h3 class="careers_title">Multi-Post Stories Gain+Glory</h3>
-            <ul class="tags">
-                <li class="Lang-tag">Ruby on rails</li>
-                <li class="Lang-tag">Css</li>
-                <li class="Lang-tag">Javascript</li>
-                <li class="Lang-tag">Html</li>
-            </ul> 
-            <div class="action">
-                <button class="btn-primary primary-font-style">See project</button>
-            </div>
-        </div>
-        </div>
-    </section>
-
-    <section class="careers-card-5">
-        <div class="careers-card">
-        <img src="Images/img-placeholder.png" alt="placeholder">
-        <div class="careers-card-footer">
-            <h3 class="careers_title">Multi-Post Stories Gain+Glory</h3>
-            <ul class="tags">
-                <li class="Lang-tag">Ruby on rails</li>
-                <li class="Lang-tag">Css</li>
-                <li class="Lang-tag">Javascript</li>
-                <li class="Lang-tag">Html</li>
-            </ul> 
-            <div class="action">
-                <button class="btn-primary primary-font-style">See project</button>
-            </div>
-        </div>
-        </div>
-    </section>
-
-    <section class="careers-card-6">
-        <div class="careers-card">
-        <img src="Images/img-placeholder.png" alt="placeholder">
-        <div class="careers-card-footer">
-            <h3 class="careers_title">Multi-Post Stories Gain+Glory</h3>
-            <ul class="tags">
-                <li class="Lang-tag">Ruby on rails</li>
-                <li class="Lang-tag">Css</li>
-                <li class="Lang-tag">Javascript</li>
-                <li class="Lang-tag">Html</li>
-            </ul> 
-            <div class="action">
-                <button class="btn-primary primary-font-style">See project</button>
-            </div>
-        </div>
-        </div>
-    </section>
     </div>
-</section>
+    <div class="careers-card">
+        <div class="img-Placeholder"></div>
+        <div class="careers-card-footer">
+        <h2 id="careers_title">Multi-Post Stories Gain+Glory</h2>
+        <div class="languages-category">
+            <ul id="career-tags">
+                <li class="Lang-tag">Ruby on rails</li>
+                <li class="Lang-tag">Css</li>
+                <li class="Lang-tag">Javascript</li>
+                <li class="Lang-tag">Html</li>
+            </ul> 
+        </div>
+        <div id="action">
+            <button type="button" class="project-button">See Project</button>
+        </div>
+        </div>
+    </div>
+    <div class="careers-card">
+        <div class="img-Placeholder"></div>
+        <div class="careers-card-footer">
+        <h2 id="careers_title">Multi-Post Stories Gain+Glory</h2>
+        <div class="languages-category">
+            <ul id="career-tags">
+                <li class="Lang-tag">Ruby on rails</li>
+                <li class="Lang-tag">Css</li>
+                <li class="Lang-tag">Javascript</li>
+                <li class="Lang-tag">Html</li>
+            </ul> 
+        </div>
+        <div id="action">
+            <button type="button" class="project-button">See Project</button>
+        </div>
+        </div>
+    </div>
+    <div class="careers-card">
+        <div class="img-Placeholder"></div>
+        <div class="careers-card-footer">
+        <h2 id="careers_title">Multi-Post Stories Gain+Glory</h2>
+        <div class="languages-category">
+            <ul id="career-tags">
+                <li class="Lang-tag">Ruby on rails</li>
+                <li class="Lang-tag">Css</li>
+                <li class="Lang-tag">Javascript</li>
+                <li class="Lang-tag">Html</li>
+            </ul> 
+        </div>
+        <div id="action">
+            <button type="button" class="project-button">See Project</button>
+        </div>
+        </div>
+    </div>
+    <div class="careers-card">
+        <div class="img-Placeholder"></div>
+        <div class="careers-card-footer">
+        <h2 id="careers_title">Multi-Post Stories Gain+Glory</h2>
+        <div class="languages-category">
+            <ul id="career-tags">
+                <li class="Lang-tag">Ruby on rails</li>
+                <li class="Lang-tag">Css</li>
+                <li class="Lang-tag">Javascript</li>
+                <li class="Lang-tag">Html</li>
+            </ul> 
+        </div>
+        <div id="action">
+            <button type="button" class="project-button">See Project</button>
+        </div>
+        </div>
+    </div>
+    <div class="careers-card">
+        <div class="img-Placeholder"></div>
+        <div class="careers-card-footer">
+        <h2 id="careers_title">Multi-Post Stories Gain+Glory</h2>
+        <div class="languages-category">
+            <ul id="career-tags">
+                <li class="Lang-tag">Ruby on rails</li>
+                <li class="Lang-tag">Css</li>
+                <li class="Lang-tag">Javascript</li>
+                <li class="Lang-tag">Html</li>
+            </ul> 
+        </div>
+        <div id="action">
+            <button type="button" class="project-button">See Project</button>
+        </div>
+        </div>
+    </div>
+    </div>
+    </section>
 
 
     <!-- About me section -->
 
     
-    <section id="about_me" class="center-content">
-        <h1 class="primary-font-style primary-font-size"><b>About me</b></h1>
-        <p class="supporting_text primary-font-style">
-             I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
-        </p>
-        <button class="btn-primary primary-font-style btn-resume">Get My Resume</button>
-    </section>
+    <section class="about_me_section"><div class="about-me">
+        <div class="about-me-title"><h2 id="about-me-text">About me</h2>
+        <div class="about">
+            <img src="images/About.png" alt="About">
+        </div>
+        </div>
+        <div class="about-me-detail">
+            <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
+            </p>
+        </div>
+        <div id="get-my-resume-section">
+            <button type="button" class="standard-button">Get My Resume</button>
+        </div>
+    </div>
 
-    
+
     <!-- About my education section -->
 
 
-    <section id="education">
-        <section class="education-card-1">
-        <div class="education-card">
-            <img src="Images/icon-languages.png" alt="Icon languages">
-            <div class="education-card-footer">
-                <h3 class="education-title">Languages</h3>
-                <ul class="tags">
-                    <li class="primary-font-style">Javascript</li>
-                    <li class="primary-font-style">Ruby</li>
-                    <li class="primary-font-style">Html</li>
-                    <li class="primary-font-style">CSS</li>
-                </ul> 
-            </div>
+    <div class="education">
+    <div class="education-card">
+        <div class="education-card-icon">
+            <img src="images/icon-languages.png" alt="icon-languages">
         </div>
+        <div class="education-title"><h3>Languages</h3></div>
+        <div class="education-card-list">
+            <ul id="education-ul-list">
+                <li class="primary-font-style">Javascript</li>
+                <li class="primary-font-style">Ruby</li>
+                <li class="primary-font-style">Html</li>
+                <li class="primary-font-style">CSS</li>
+              </ul>
+        </div>
+    </div>
+    <div class="education-card">
+        <div class="education-card-icon">
+            <img src="images/icon-frameworks.png" alt="icon Frameworks">
+        </div>
+        <div class="education-title"><h3>Frameworks</h3></div>
+        <div class="education-card-list">
+            <ul id="education-ul-list">
+                <li class="primary-font-style">Bootstrap</li>
+                <li class="primary-font-style">Ruby on rails</li>
+                <li class="primary-font-style">RSpec</li>
+              </ul>
+        </div>
+        <div class="education-list-2">
+            <ul id="education-ul-list-2">
+                <li class="primary-font-style">Capybara</li>
+                <li class="primary-font-style">Selenium</li>
+              </ul>
+      </div>
+    </div>
+    <div class="education-card">
+        <div class="education-card-icon">
+            <img src="images/icon-skills.png" alt="icon Skills">
+        </div>
+        <div class="education-title"><h3>Skills</h3></div>
+        <div class="education-card-list">
+            <ul id="education-ul-list">
+                <li class="primary-font-style">Codekit</li>
+                <li class="primary-font-style">GitHub</li>
+                <li class="primary-font-style">Codepen</li>
+                <li class="primary-font-style">Gitlab</li>
+              </ul>
+        </div>
+        <div class="education-list-2">
+            <ul id="education-ul-list-2">
+                <li class="primary-font-style">Terminal</li>
+              </ul>
+      </div>
+    </div>
+    </div>
     </section>
 
-    <section class="education-card-2">
-        <div class="education-card">
-            <img src="Images/icon-frameworks.png" alt="Icon frameworks">
-            <div class="education-card-footer">
-                <h3 class="education-title">Frameworks</h3>
-                <ul class="tags">
-                    <li class="primary-font-style">Bootstrap</li>
-                    <li class="primary-font-style">Ruby on rails</li>
-                    <li class="primary-font-style">RSpec</li>
-                    <li class="primary-font-style">Capybara</li>
-                    <li class="primary-font-style">Selenium</li>
-                </ul> 
-            </div>
-        </div>
-        </section>
 
-        <section class="education-card-3">
-        <div class="education-card">
-            <img src="Images/icon-skills.png" alt="Icon Skills">
-            <div class="education-card-footer">
-                <h3 class="education-title">Skills</h3>
-                <ul class="tags">
-                    <li class="primary-font-style">Codekit</li>
-                    <li class="primary-font-style">GitHub</li>
-                    <li class="primary-font-style">Codepen</li>
-                    <li class="primary-font-style">Gitlab</li>
-                    <li class="primary-font-style">Terminal</li>
-                </ul> 
-            </div>
+    <!-- Footer and contact form -->
+
+
+    <footer class="contact-form-section">
+        <div id="contact-form-detail">
+        <div class="contact-form-description">
+            <h2 id="contact-form-desc">
+                I'm always interested in hearing
+                about new projects, so if you'd 
+                like to chat please get in touch.
+            </h2>
         </div>
-        </section>
-    </section>
+        <div class="form">
+            <form action="https://formspree.io/f/mpznrkvl" method="post">
+                <input type="text" id="fullname" inputname="fullname" maxlength="30" placeholder="Full Name" required><br>
+                <input type="email" id="email" inputname="" placeholder="Email Address" required>
+                <textarea name="message" id="textarea" placeholder="Enter Text Here" maxlength="500" required></textarea>
+                <input type="submit" value="Get in touch" id="get-in-btn" class="standard-button">
+            </form>
+        </div>
+    </div>
+        <div id="social-media-links-2">
+            <ul id="media-links">
+                <li><a href="https://github.com/187jjay187"><img src="Images/github.svg" alt="github"></a></li>
+                <li><a href="https://linkedin.com"><img src="Images/Linkedin icon.svg" alt="Linkedin logo"></a></li>
+                <li><a href="https://angel.co"><img src="Images/angellist.svg" alt="angellist"></a></li>
+                <li><a href="https://twitter.com"><img src="Images/twitter.svg" alt="twitter"></a></li>
+                <li><a href="https://medium.com"><img src="Images/medium.svg" alt="medium"></a></li>
+            </ul>
+            <p id="footer-email">187jjay187@gmail.com</p>
+        </div>
+    </footer>
+    <!-- footer section end here -->
 </body>
 </html>

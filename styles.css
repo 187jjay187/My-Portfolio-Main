@@ -7,6 +7,7 @@ body {
   background-color: white;
 }
 
+.submit-button,
 .btn-primary {
   background: #36b37f;
   border-radius: 4px;
@@ -15,14 +16,20 @@ body {
   outline-color: none;
 }
 
-.btn-primary:hover {
-  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+.submit-button {
+  background-color: #36b37e;
+  border: none;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 4px;
+  margin-top: 15px;
+  margin-left: 180px;
 }
 
-.btn-primary:active {
-  background: #008552;
-}
-
+.submit-button,
 .primary-font-style {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -93,7 +100,7 @@ body {
 }
 
 .careers-card .careers-card-footer .tags li {
-  flex: none;
+  float: left;
   text-align: center;
   flex-grow: 0;
   font-weight: 600;
@@ -412,4 +419,73 @@ body {
   list-style-type: none;
   gap: 8px;
   width: 266px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 40px;
+  background-image: url(./Images/Frame\ 37.svg);
+  background-repeat: no-repeat;
+}
+
+.Contact-form-description {
+  width: 327px;
+  height: 320px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  padding-right: 30px;
+  margin-bottom: 100px;
+}
+
+input {
+  margin-bottom: 40px;
+}
+
+#fullname,
+#email {
+  width: 327px;
+  height: 48px;
+  border-radius: 4px;
+}
+
+#textarea {
+  width: 327px;
+  height: 114px;
+  border-radius: 4px;
+  border-color: #60c095;
+}
+
+#btn-get-in-touch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 110px;
+}
+
+#social-media-links-2 {
+  list-style-type: none;
+  padding-right: 50px;
+}
+
+#media-links-2 li {
+  display: inline;
+  padding-left: 10px;
+}
+
+.submit-button:hover,
+.btn-primary:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.submit-button:active,
+.btn-primary:active {
+  background: #008552;
 }
