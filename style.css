@@ -442,9 +442,6 @@ input {
   }
 
   .contact-form-section {
-  }
-
-  .contact-form-section {
     display: flex;
     flex-direction: column;
     width: 100%;
