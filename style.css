@@ -300,12 +300,13 @@ input {
   margin-bottom: 30px;
 }
 
-#fullname, #fullnames,
+#fullname,
+#fullnames,
 #email {
   width: 327px;
   height: 48px;
   border-radius: 4px;
-  border-color: #D0D9D4;
+  border-color: #d0d9d4;
 }
 
 #textarea {
@@ -336,7 +337,7 @@ input {
 
 .standard-button:hover,
 .project-button:hover {
-  background-color: #36B37F;
+  background-color: #36b37f;
   color: #fff;
 }
 
@@ -440,17 +441,17 @@ input {
     justify-content: center;
   }
 
-.contact-form-section {
-  background-image: url(./Images/Frame2.png);
-  background-image: url(./Images/illustration-2-contact-form-desktop.png);
-  background-image: url(./Images/Frame@2x.png);
-  background-repeat: no-repeat;
-}
+  .contact-form-section {
+  }
 
   .contact-form-section {
     display: flex;
     flex-direction: column;
     width: 100%;
+    background-image: url(./Images/Frame2.png);
+    background-image: url(./Images/illustration-2-contact-form-desktop.png);
+    background-image: url(./Images/Frame@2x.png);
+    background-repeat: no-repeat;
   }
 
   #contact-form-detail {
@@ -484,11 +485,11 @@ input {
   #fullname {
     width: 50%;
   }
-  
+
   #fullnames {
     width: 50%;
   }
-  
+
   #email {
     width: 400px;
     height: 48px;
