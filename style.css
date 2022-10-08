@@ -71,6 +71,7 @@ html { font-family: 'Inter', sans-serif; }
 
 #Action {
   position: absolute;
+  padding-top: 30px;
 }
 
 .careers_list {
