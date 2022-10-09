@@ -16,7 +16,7 @@ html { font-family: 'Inter', sans-serif; }
   display: none;
 }
 
-#logo-image {
+#welcome-image {
   padding-left: 15%;
   padding-top: 15%;
 }
@@ -87,6 +87,14 @@ html { font-family: 'Inter', sans-serif; }
   padding-top: 30px;
 }
 
+#action {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
 .careers_list {
   display: grid;
   grid-template-rows: auto;
@@ -146,13 +154,11 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 #careers_title {
-  width: 295px;
-  height: 57px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
-  padding-left: 20px;
+  justify-content: center;
   line-height: 32px;
   text-align: center;
 }
@@ -180,8 +186,6 @@ html { font-family: 'Inter', sans-serif; }
   text-decoration: none;
   font-size: 17px;
   border-radius: 4px;
-  margin-left: 110px;
-  margin-top: 40px;
   cursor: pointer;
 }
 
@@ -204,10 +208,11 @@ html { font-family: 'Inter', sans-serif; }
   font-weight: 400;
   line-height: 32px;
   text-align: center;
-  margin-left: 70px;
 }
 
 #about-me-text {
+  justify-content: center;
+  text-align: center;
   font-size: 40px;
   padding-right: 90px;
 }
@@ -358,8 +363,8 @@ input {
   }
 
   .navbar {
-    display: block;
-    margin-left: 38%;
+    display: flex;
+    margin-left: 41%;
   }
 
   #navbar-Pages {
@@ -375,7 +380,7 @@ input {
     text-decoration: none;
   }
 
-  #logo-image,
+  #welcome-image,
   .menu,
   #headline-img-mobile {
     display: none;
@@ -412,7 +417,7 @@ input {
   }
 
   #about-me-text {
-    padding-right: 345px;
+    padding-right: 240px;
   }
 
   .about-me {
@@ -427,6 +432,7 @@ input {
   }
 
   .about-me-detail {
+    margin: 6%;
     width: 900px;
     height: 96px;
   }
