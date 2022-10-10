@@ -12,6 +12,15 @@ html { font-family: 'Inter', sans-serif; }
   flex-direction: column;
 }
 
+.navbar {
+  display: none;
+}
+
+#welcome-image {
+  padding-left: 15%;
+  padding-top: 15%;
+}
+
 .toolbar-container {
   display: flex;
   flex-direction: row;
@@ -25,6 +34,10 @@ html { font-family: 'Inter', sans-serif; }
 .hero-title-section {
   position: relative;
   text-align: center;
+}
+
+#headline-img-desktop {
+  display: none;
 }
 
 .hero-title {
@@ -72,6 +85,14 @@ html { font-family: 'Inter', sans-serif; }
 #Action {
   position: absolute;
   padding-top: 30px;
+}
+
+#action {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
 }
 
 .careers_list {
@@ -133,13 +154,11 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 #careers_title {
-  width: 295px;
-  height: 57px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
-  padding-left: 20px;
+  justify-content: center;
   line-height: 32px;
   text-align: center;
 }
@@ -167,8 +186,6 @@ html { font-family: 'Inter', sans-serif; }
   text-decoration: none;
   font-size: 17px;
   border-radius: 4px;
-  margin-left: 110px;
-  margin-top: 40px;
   cursor: pointer;
 }
 
@@ -191,10 +208,11 @@ html { font-family: 'Inter', sans-serif; }
   font-weight: 400;
   line-height: 32px;
   text-align: center;
-  margin-left: 70px;
 }
 
 #about-me-text {
+  justify-content: center;
+  text-align: center;
   font-size: 40px;
   padding-right: 90px;
 }
@@ -288,10 +306,12 @@ input {
 }
 
 #fullname,
+#fullnames,
 #email {
   width: 327px;
   height: 48px;
   border-radius: 4px;
+  border-color: #d0d9d4;
 }
 
 #textarea {
@@ -322,14 +342,184 @@ input {
 
 .standard-button:hover,
 .project-button:hover {
-  background-color: #14e7dd;
-  color: black;
+  background-color: #36b37f;
+  color: #fff;
 }
 
 .standard-button:active,
 .project-button:active {
-  background-color: #14e7dd;
-  color: black;
+  background-color: #008552;
+  color: #fff;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+/* -------------Desktop Vesrion------------- */
+
+@media screen and (min-width: 768px) {
+  #headline-img-desktop {
+    display: block;
+    width: 100%;
+  }
+
+  .navbar {
+    display: flex;
+    margin-left: 41%;
+  }
+
+  #navbar-Pages {
+    list-style-type: none;
+  }
+
+  #navbar-Pages li {
+    display: inline;
+    padding: 12px;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  #welcome-image,
+  .menu,
+  #headline-img-mobile {
+    display: none;
+  }
+
+  .text {
+    padding-bottom: 10%;
+  }
+
+  #media-links {
+    margin-right: 8%;
+  }
+
+  #Action {
+    margin-left: 29%;
+  }
+
+  .hero-description {
+    width: 91%;
+    height: auto;
+  }
+
+  .careers_list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 30px;
+    justify-content: center;
+  }
+
+  #Recent-Works-Text {
+    width: 100%;
+    height: auto;
+    padding-left: 2%;
+  }
+
+  #about-me-text {
+    padding-right: 240px;
+  }
+
+  .about-me {
+    width: 100%;
+    display: grid;
+    row-gap: 30px;
+    justify-content: center;
+  }
+
+  #get-my-resume-section {
+    margin-left: 27%;
+  }
+
+  .about-me-detail {
+    margin: 6%;
+    width: 900px;
+    height: 96px;
+  }
+
+  .About {
+    display: none;
+  }
+
+  .education {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+  }
+
+  .contact-form-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url(./Images/Frame2.png);
+    background-image: url(./Images/illustration-2-contact-form-desktop.png);
+    background-image: url(./Images/Frame@2x.png);
+    background-repeat: no-repeat;
+  }
+
+  #contact-form-detail {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 5%;
+    padding-left: 7%;
+  }
+
+  .contact-form-description {
+    width: 100%;
+  }
+
+  #contact-form-desc {
+    width: 100%;
+    padding: 10%;
+    text-align: justify;
+  }
+
+  .form {
+    width: 50%;
+  }
+
+  .Names {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 420px;
+  }
+
+  #fullname {
+    width: 50%;
+  }
+
+  #fullnames {
+    width: 50%;
+  }
+
+  #email {
+    width: 400px;
+    height: 48px;
+  }
+
+  #textarea {
+    width: 400px;
+    height: 114px;
+    border-radius: 4px;
+    border-color: #60c095;
+  }
+
+  #get-in-btn {
+    margin-left: 0;
+  }
+
+  #footer-email {
+    display: none;
+  }
+
+  #social-media-links-2 {
+    margin: 0;
+    width: 100%;
+    border-top: 2px solid #dfe1e6;
+  }
+
+  #social-media-links-2 ul {
+    margin-left: 45%;
+  }
 }
