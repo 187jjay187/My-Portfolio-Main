@@ -8,11 +8,11 @@ html { font-family: 'Inter', sans-serif; }
 /* ----------------Moile Version-------------- */
 html,
 body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .container {
@@ -65,7 +65,7 @@ body {
   font-weight: 700;
 }
 
-#first { 
+#first {
   font-size: 36px;
   text-align: center;
 }
@@ -210,6 +210,7 @@ body {
   line-height: 52px;
   text-align: center;
   height: 100px;
+
   /* background-image: url(images/about-desktop-1.svg); */
   background-repeat: no-repeat;
   background-position: right;
@@ -377,14 +378,14 @@ input {
 /* -------------Desktop Vesrion------------- */
 
 @media screen and (min-width: 768px) {
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
 
   #headline-img-desktop {
     display: block;
@@ -418,7 +419,7 @@ body {
     background-size: inherit;
     background-position-y: auto;
     background-position-x: center;
-    }
+  }
 
   a:link {
     text-decoration: none;
@@ -447,7 +448,6 @@ body {
   #media-links {
     margin-right: 8%;
   }
-
 
   .hero-description {
     width: 920px;
@@ -526,11 +526,9 @@ body {
   #contact-form-desc {
     width: 100%;
     line-height: 52px;
-    width: 100%;
     margin-top: 53px;
     margin-left: 116px;
-    line-height: 52px;
-}
+  }
 
   .form {
     width: 50%;
