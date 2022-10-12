@@ -6,6 +6,14 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 /* ----------------Moile Version-------------- */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 
 .container {
   display: flex;
@@ -24,27 +32,31 @@ html { font-family: 'Inter', sans-serif; }
 .toolbar-container {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 .menu {
   align-self: center;
-  padding-left: 290px;
+  margin-left: 249px;
 }
 
 .hero-title-section {
-  position: relative;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 531px;
+  padding: 64px 24px;
+  gap: 58px;
+  background-image: url(images/header-illsutration-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position-y: auto;
+  background-position-x: center;
 }
 
 #headline-img-desktop {
   display: none;
-}
-
-.hero-title {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .main-text {
@@ -53,9 +65,15 @@ html { font-family: 'Inter', sans-serif; }
   font-weight: 700;
 }
 
+#first {
+  font-size: 36px;
+  text-align: center;
+}
+
 #second-title {
   color: #36b37e;
   font-size: 40px;
+  text-align: center;
 }
 
 .hero-description {
@@ -69,8 +87,7 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 .social-media-links {
-  padding-right: 40px;
-  padding-top: 40px;
+  margin-left: 40px;
 }
 
 #media-links {
@@ -82,11 +99,6 @@ html { font-family: 'Inter', sans-serif; }
   padding: 6px;
 }
 
-#Action {
-  position: absolute;
-  padding-top: 30px;
-}
-
 #action {
   display: flex;
   flex-direction: row;
@@ -96,9 +108,11 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 .careers_list {
-  display: grid;
-  grid-template-rows: auto;
-  row-gap: 20px;
+  display: flex;
+  row-gap: 30px;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -70px;
 }
 
 .careers-card {
@@ -126,13 +140,11 @@ html { font-family: 'Inter', sans-serif; }
 
 #Recent-Works-Text {
   text-align: center;
-  width: 327px;
   height: auto;
   font-size: 40px;
   font-weight: 700;
   font-family: 'Inter', sans-serif;
   line-height: 52px;
-  padding-left: 80px;
 }
 
 .img-Placeholder {
@@ -191,30 +203,37 @@ html { font-family: 'Inter', sans-serif; }
 
 .about-me-title {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   font-family: 'Inter', sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
   text-align: center;
   height: 100px;
+
+  /* background-image: url(images/about-desktop-1.svg); */
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.About {
+  justify-content: flex-end;
 }
 
 .about-me-detail {
   width: 351px;
-  height: 189px;
   font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
   text-align: center;
+  margin-left: 29px;
 }
 
 #about-me-text {
   justify-content: center;
   text-align: center;
   font-size: 40px;
-  padding-right: 90px;
 }
 
 .standard-button {
@@ -228,13 +247,15 @@ html { font-family: 'Inter', sans-serif; }
   font-size: 17px;
   border-radius: 4px;
   cursor: pointer;
-  margin-top: 15px;
-  margin-left: 180px;
+  margin-left: 130px;
 }
 
 .education {
-  display: grid;
-  row-gap: 20px;
+  display: flex;
+  row-gap: 30px;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -70px;
 }
 
 .education-title {
@@ -293,12 +314,12 @@ html { font-family: 'Inter', sans-serif; }
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-  padding-left: 18%;
-  margin-bottom: 100px;
+  margin-bottom: 166px;
+  margin-left: 35px;
 }
 
 .form {
-  margin-left: 17%;
+  margin-left: 30px;
 }
 
 input {
@@ -357,6 +378,15 @@ input {
 /* -------------Desktop Vesrion------------- */
 
 @media screen and (min-width: 768px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
   #headline-img-desktop {
     display: block;
     width: 100%;
@@ -376,6 +406,21 @@ input {
     padding: 12px;
   }
 
+  .hero-title-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 726px;
+    padding: 64px 24px;
+    gap: 58px;
+    background-image: url(images/Header-llustration-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position-y: auto;
+    background-position-x: center;
+  }
+
   a:link {
     text-decoration: none;
   }
@@ -386,6 +431,16 @@ input {
     display: none;
   }
 
+  .hero-title {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 20px;
+  }
+
   .text {
     padding-bottom: 10%;
   }
@@ -394,12 +449,8 @@ input {
     margin-right: 8%;
   }
 
-  #Action {
-    margin-left: 29%;
-  }
-
   .hero-description {
-    width: 91%;
+    width: 920px;
     height: auto;
   }
 
@@ -416,15 +467,20 @@ input {
     padding-left: 2%;
   }
 
-  #about-me-text {
-    padding-right: 240px;
-  }
-
   .about-me {
     width: 100%;
     display: grid;
     row-gap: 30px;
     justify-content: center;
+    background-image: url(images/about-desktop-1.svg);
+    background-repeat: no-repeat;
+    background-position: right 20px;
+  }
+
+  #about-me-text {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 75px;
   }
 
   #get-my-resume-section {
@@ -432,7 +488,6 @@ input {
   }
 
   .about-me-detail {
-    margin: 6%;
     width: 900px;
     height: 96px;
   }
@@ -470,8 +525,9 @@ input {
 
   #contact-form-desc {
     width: 100%;
-    padding: 10%;
-    text-align: justify;
+    line-height: 52px;
+    margin-top: 53px;
+    margin-left: 116px;
   }
 
   .form {
@@ -506,7 +562,10 @@ input {
   }
 
   #get-in-btn {
+    display: flex;
     margin-left: 0;
+    justify-content: flex-start;
+    align-items: center;
   }
 
   #footer-email {
