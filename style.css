@@ -36,8 +36,65 @@ body {
 }
 
 .menu {
-  align-self: center;
-  margin-left: 249px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: #67798e;
+  width: 100%;
+  padding-right: 20px;
+  margin-top: 8px;
+}
+
+.mobile-menu {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.cross {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: #67798e;
+  width: 100%;
+  padding-right: 20px;
+  margin-top: 8px;
+}
+
+.mobile-menu-list a {
+  text-decoration: none;
+  color: #3a4a42;
+}
+
+.mobile-menu-list li {
+  margin-bottom: 10px;
+}
+
+.mobile-menu-list ul {
+  list-style-type: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
 }
 
 .hero-title-section {
