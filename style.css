@@ -144,7 +144,11 @@ body {
 }
 
 .social-media-links {
-  margin-left: 40px;
+  margin-left: 20px;
+}
+
+.Action {
+  margin-left: -21px;
 }
 
 #media-links {
@@ -378,7 +382,6 @@ body {
 .form {
   margin-left: 30px;
 }
-
 input {
   margin-bottom: 30px;
 }
@@ -405,7 +408,7 @@ input {
 }
 
 #social-media-links-2 {
-  margin-left: 24%;
+  margin-left: 70px;
   margin-top: 10px;
 }
 
@@ -486,6 +489,12 @@ input {
   .menu,
   #headline-img-mobile {
     display: none;
+  }
+
+  .menu-item-1 {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
   }
 
   .hero-title {
@@ -589,6 +598,7 @@ input {
 
   .form {
     width: 50%;
+    margin-left: 100px;
   }
 
   .Names {
