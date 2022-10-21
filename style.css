@@ -567,6 +567,7 @@ input {
   right: 2rem;
   background: none;
   border: none;
+  cursor: pointer;
 }
 
 #closeButton {
@@ -722,6 +723,18 @@ input {
     overflow: auto;
   }
 
+  .link {
+    position: relative;
+    float: left;
+    top: -33%;
+    width: 43.5%;
+    justify-content: flex-end;
+    align-self: flex-end;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0.7rem;
+  }
+
   .popupImage {
     background-image: url('./images/bg-popup.png');
     background-position: top center;
@@ -764,6 +777,7 @@ input {
     background: #c1c7d0;
     padding: 0.8rem;
     border-radius: 0.8rem;
+    cursor: pointer;
   }
 
   .about-me {
