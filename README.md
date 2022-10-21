@@ -10,12 +10,14 @@
 
 - HTML
 - CSS
+- Javascript
 
 
 ## List Of Technologies
 
 - Visual Studio Code
 - Github
+- Figma
 
 
 

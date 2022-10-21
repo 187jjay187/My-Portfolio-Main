@@ -710,6 +710,14 @@ input {
     margin-bottom: -5rem;
   }
 
+  .popupSection {
+    background: rgba(194, 199, 207, 0.9);
+    position: fixed;
+    width: auto;
+    height: 100%;
+    overflow: auto;
+  }
+
   .link {
     position: relative;
     float: left;
