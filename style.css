@@ -575,6 +575,9 @@ input {
   border: none;
 }
 
+.error {
+  color: red;
+}
 /* -------------Desktop Vesrion------------- */
 
 @media screen and (min-width: 768px) {
