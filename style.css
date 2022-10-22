@@ -521,6 +521,10 @@ input {
   height: auto;
 }
 
+.popupImg {
+  width: 90%;
+  height: 115%;
+}
 
 .link {
   display: flex;
