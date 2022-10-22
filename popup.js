@@ -144,3 +144,125 @@ function closeWindow() {
   iconClose[0].style.display = 'none';
   iconClose[0].remove();
 }
+
+// cards section
+const cards = [{
+  id: 0,
+  title: 'Multi-Post Stories Gain+Glory',
+  descriptionPopup: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+  tech: ['html', 'css', 'bootstrap', 'Ruby'],
+  btnText: 'See Project',
+  sourceURL: 'https://github.com/187jjay187/My-Portfolio-Main',
+  livePreview: 'https://github.com/187jjay187/187jjay187.github.io',
+
+},
+{
+  id: 1,
+  title: 'Multi-Post Stories Gain+Glory',
+  descriptionPopup: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+  tech: ['html', 'css', 'bootstrap', 'Ruby'],
+  btnText: 'See Project',
+  sourceURL: 'https://github.com/187jjay187/My-Portfolio-Main',
+  livePreview: 'https://github.com/187jjay187/187jjay187.github.io',
+
+},
+{
+  id: 2,
+  title: 'Multi-Post Stories Gain+Glory',
+  descriptionPopup: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+  tech: ['html', 'css', 'bootstrap', 'Ruby'],
+  btnText: 'See Project',
+  sourceURL: 'https://github.com/187jjay187/My-Portfolio-Main',
+  livePreview: 'https://github.com/187jjay187/187jjay187.github.io',
+
+},
+{
+  id: 3,
+  title: 'Multi-Post Stories Gain+Glory',
+  descriptionPopup: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+  tech: ['html', 'css', 'bootstrap', 'Ruby'],
+  btnText: 'See Project',
+  sourceURL: 'https://github.com/187jjay187/My-Portfolio-Main',
+  livePreview: 'https://github.com/187jjay187/187jjay187.github.io',
+
+},
+{
+  id: 4,
+  title: 'Multi-Post Stories Gain+Glory',
+  descriptionPopup: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+  tech: ['html', 'css', 'bootstrap', 'Ruby'],
+  btnText: 'See Project',
+  sourceURL: 'https://github.com/187jjay187/My-Portfolio-Main',
+  livePreview: 'https://github.com/187jjay187/187jjay187.github.io',
+
+},
+{
+  id: 5,
+  title: 'Multi-Post Stories Gain+Glory',
+  descriptionPopup: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+  tech: ['html', 'css', 'bootstrap', 'Ruby'],
+  btnText: 'See Project',
+  sourceURL: 'https://github.com/187jjay187/My-Portfolio-Main',
+  livePreview: 'https://github.com/187jjay187/187jjay187.github.io',
+
+},
+
+];
+
+function displayCards() {
+  let result = '';
+
+  cards.forEach((card) => {
+    result += `<div class="careers-card">
+    <div class="img-Placeholder"></div>
+    <div class="careers-card-footer">
+    <h3 id="careers_title">${card.title}</h3>
+    <div class="languages-category">
+        <ul id="career-tags">
+            <li class="Lang-tag">${card.tech[0]}</li>
+            <li class="Lang-tag">${card.tech[1]}</li>
+            <li class="Lang-tag">${card.tech[2]}</li>
+            <li class="Lang-tag">${card.tech[3]}</li>
+        </ul> 
+    </div>
+    <div id="action">
+        <button id="projectOne" onclick="projectClick(event)" type="button" class="project-button">${card.btnText}</i></button>
+    </div>
+    </div>
+</div>`;
+  });
+
+  document.getElementById('cards-container').innerHTML = result;
+}
+
+displayCards();
+
+function displayFeachuredPost() {
+  const card1 = {
+    title: 'Keeping track of hundreds of components',
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    tech: ['html', 'css', 'bootstrap', 'javaScript'],
+    btnText: 'See Project',
+    sourceURL: 'https://github.com/187jjay187/My-Portfolio-Main',
+    livePreview: 'https://github.com/187jjay187/187jjay187.github.io',
+  };
+  document.getElementById('featured-post').innerHTML = `
+  <img class="featured-img" src="img/card1-Placeholder.png">
+  <div class="featured-content">
+    <h3 id="card-title">${card1.title}</h3>
+    <p>
+    ${card1.description}
+    </p>
+    <ul class="lang-list">
+    <li>${card1.tech[0]}</li> 
+    <li>${card1.tech[1]}</li> 
+    <li>${card1.tech[2]}</li>
+    <li>${card1.tech[3]}</li>
+    </ul>
+    <a href="#"> <button class="featured-btn card-btn-open">${card1.btnText}</button></a>
+     
+  </div>
+`;
+}
+
+displayFeachuredPost();
