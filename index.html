@@ -171,11 +171,12 @@
         </h2>
     </div>
     <div class="form">
-        <form action="https://formspree.io/f/mpznrkvl" method="post">
+        <form id="form-id" action="https://formspree.io/f/mpznrkvl" method="post">
             <div class="Names">
             <input type="text" id="fullname" inputname="fullname" maxlength="30" placeholder="Full Name" required><br><input type="text" id="fullnames" inputname="fullname" maxlength="30" placeholder="Last Name" required><br></div>
             <input type="email" id="email" inputname="" placeholder="Email Address" required>
             <textarea name="message" id="textarea" placeholder="Enter Text Here" maxlength="500" required></textarea>
+            <small></small>
             <input type="submit" value="Get in touch" id="get-in-btn" class="standard-button">
         </form>
     </div>
@@ -194,5 +195,6 @@
 <!-- footer section end here -->
 <script src="./javascript.js"></script>
 <script src="./popup.js"></script>
+<script src="./formvalidation.js"></script>
 </body>
 </html>
